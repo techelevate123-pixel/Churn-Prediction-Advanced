@@ -1,0 +1,90 @@
+📊 Customer Churn Prediction (Advanced Machine Learning Project)
+📌 Overview
+This project predicts whether a customer will churn (leave a service) using machine learning techniques.
+
+It is designed as a real-world business problem commonly faced in industries like telecom, SaaS, and subscription-based services.
+
+🎯 Problem statment
+Customer churn directly impacts business revenue. Companies need to identify customers who are likely to leave so they can take preventive actions.
+
+The objective of this project is to:
+
+Predict customer churn
+
+Identify key factores influencing churn
+
+Improve customer retention strategies
+
+🧠 Machine Learning Workflow
+This project follows a complete ML pipeline:
+
+📊 1. DAta Preprocessing
+NUmerical + categorical features
+
+Feature Scaling using StandardScaler
+
+Encoding categorical variables using OneHotEncoding
+
+🤖 2. Models Used
+Logistic Regression (baseline model)
+
+Random Forest Classifier (advanced model)
+
+⚙️ 3. Model Optimization
+pipeline-based training
+Model comparison
+Improved performance using ensemble methods
+📈 4. Evaluation Matrics
+Accuracy Score
+Classification report (Precision, Recall, F1-score)
+ROC Curve
+AUC Curve
+🔍 5. Feature Analysis
+Feature importance from Random Forest
+Identification of key churn drivers
+📊 Key Results
+Random Forest performed better than Logistic Regression
+
+ROC-AUC score indicates strong predictive performance
+
+Most important features affecting churn:
+
+Monthly Charges
+
+Tenure
+
+Contact type
+
+💡 Business Insights
+Customers with high monthly charges and low tenure are more likely to churn
+Month-to-month contracts have higher churn risk
+Long-term customers are more stable and valuable
+📌 Business Impact
+Identify at-risk customers early
+
+Reduce customer loss
+
+Improve retention strategies
+
+Increase company revenue
+
+⚙️ Tools and Techniques
+Python 🦆
+Pandas
+Numpy
+Scikit-learn
+Matplotlib
+📁 Project Structure
+Customer-churn-advanced/ | |--- data/
+
+Dataset files |--- notebook/
+ML model code |--- src/
+generation scripts |--- models/
+Saved models |--- README.md
+Project documantation |--- requirements.txt
+Dependencies
+▶️ How To Run
+# pip install -r requirements.txt
+
+# Genarate dataset
+python src/data.py
